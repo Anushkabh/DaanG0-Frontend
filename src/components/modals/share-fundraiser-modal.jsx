@@ -22,7 +22,7 @@ import { WhatsappLogo } from '../../assets/socials/whatsapp-logo.jsx';
 
 const ShareFundraiserModal = ({ fundraiserTitle, fundraiserCreatorName, fundraiserId, isOpen, onClose }) => {
   const [isCopied, setIsCopied] = useState();
-  const shareLink = `https://DaanGoweb.vercel.app/fundraiser/${fundraiserId}
+  const shareLink = `https://daan-g0-frontend.vercel.app/fundraiser/${fundraiserId}
     `;
 
   const handleCopyLink = () => {
